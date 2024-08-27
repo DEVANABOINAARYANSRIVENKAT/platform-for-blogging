@@ -53,7 +53,7 @@ const AdminDashboard = () => {
                 <td>{user.email}</td>
                 <td>{user.mobile}</td>
                 <td>
-                  <button className="delete-button" onClick={() => handleDelete(user._id)}>Delete</button>
+                  <button className="deleteee-button" onClick={() => handleDelete(user._id)}>Delete</button>
                 </td>
               </tr>
             ))}
